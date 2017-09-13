@@ -12,11 +12,11 @@ class ParticleSwarmOptimization:
 
     def __init__(self, sizepop, vardim, bound, MAXGEN, params):
         '''
-        sizepop: population sizepop
-        vardim: dimension of variables
-        bound: boundaries of variables
-        MAXGEN: termination condition
-        params: algorithm required parameters, it is a list which is consisting of[w, c1, c2]
+    sizepop: population sizepop
+    vardim: dimension of variables
+    bound: boundaries of variables
+    MAXGEN: termination condition
+    params: algorithm required parameters, it is a list which is consisting of[w, c1, c2]
         '''
         self.sizepop = sizepop
         self.vardim = vardim

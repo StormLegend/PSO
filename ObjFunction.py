@@ -1,9 +1,9 @@
 import math
 
 def GrieFunc(vardim, x, bound):
-   """ 
-   Griewangk function
-   """
+    """ 
+    Griewangk function
+    """
     s1 = 0.
     s2 = 1.
     for i in range(1, vardim + 1):

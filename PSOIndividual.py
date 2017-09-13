@@ -3,10 +3,9 @@ import ObjFunction
 import copy
 
 class PSOIndividual:
-  '''
-   individual of PSO
     '''
-
+    individual of PSO
+    '''
     def __init__(self, vardim, bound):
         '''
         vardim: dimension of variables
@@ -34,4 +33,4 @@ class PSOIndividual:
        '''
         calculate the fitness of the chromsome
        '''
-        self.fitness = ObjFunction.GrieFunc(self.vardim, self.chrom, self.bound)
+       self.fitness = ObjFunction.GrieFunc(self.vardim, self.chrom, self.bound)
